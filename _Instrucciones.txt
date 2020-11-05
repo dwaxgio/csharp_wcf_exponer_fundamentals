@@ -1,0 +1,11 @@
+http://dotnetuy.com/blog/2018/08/20/tutorial-wcf-cuarta-parte-creando-un-cliente-para-consumir-nuestro-servicio-wcf-windows-communication-foundation/
+
+
+https://localhost:44327/4_HostServer/4_2_PrimerServicioWCF.svc
+
+
+
+
+*** para descargar metadatos con SvcUtil.exe
+
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\SvcUtil.exe" https://localhost:44327/4_HostServer/4_2_PrimerServicioWCF.svc?wsdl /out:PrimerServicioWCFRef.cs /config:app.config
